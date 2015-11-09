@@ -1,6 +1,4 @@
-# mitags_extraction_protocol
-
-## mitags extraction protocol
+## mitags extraction scripts (see: http://onlinelibrary.wiley.com/doi/10.1111/1462-2920.12250/)
 
 # Install and check :
 
