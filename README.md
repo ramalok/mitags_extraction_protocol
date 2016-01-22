@@ -2,11 +2,11 @@
         (see: http://onlinelibrary.wiley.com/doi/10.1111/1462-2920.12250/abstract)
 
 # Install and check :
-
         
         You need to have  1. perl,  2. python and  install 3. hmmer3 executable (v3.0rc2).
         It is key that you use hmmer-3.0rc2 (install instrcutions below). Make sure this version is called always.
         Once you install everything and you've sucessfully run the tests, then you need to add routes to corresponding scripts
+        Tested [Linux kyuss 3.13.0-27-generic #50-Ubuntu SMP Thu May 15 18:06:16 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux]
         
 1. Download : miTAGs_extraction_protocol.zip :     wget https://github.com/ramalok/mitags_extraction_protocol/archive/master.zip
 2. Unzip: unzip master.zip
