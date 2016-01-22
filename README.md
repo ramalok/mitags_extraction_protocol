@@ -4,7 +4,9 @@
 # Install and check :
 
         
-        you need to have  1. perl,  2. python and  install 3. hmmer3 executable (v3.0rc2)
+        You need to have  1. perl,  2. python and  install 3. hmmer3 executable (v3.0rc2).
+        It is key that you use hmmer-3.0rc2 (install instrcutions below). Make sure this version is called always.
+        Once you install everything and you've sucessfully run the tests, then you need to add routes to corresponding scripts
         
 1. Download : miTAGs_extraction_protocol.zip :     wget https://github.com/ramalok/mitags_extraction_protocol/archive/master.zip
 2. Unzip: unzip master.zip
@@ -29,6 +31,6 @@
 17. cd ../../
 18. zcat test.MERGEDPAIRS.fastq.gz | ./fq_all2std.pl fq2fa > test.merged.fna
 19. ./cdbfasta/cdbfasta test.merged.fna
-11. ./rna_hmm3.py -i test.merged.fna -o test.merged.rRNA -m ssu,lsu -k bac,arc,euk
-12. ./parse_rna_hmm3_output.pl test.merged.rRNA
-13. ./extract_rrna_seqs.pl test.merged.rRNA.parsed 1 100
+20. ./rna_hmm3.py -i test.merged.fna -o test.merged.rRNA -m ssu,lsu -k bac,arc,euk
+21. ./parse_rna_hmm3_output.pl test.merged.rRNA
+22. ./extract_rrna_seqs.pl test.merged.rRNA.parsed 1 100
