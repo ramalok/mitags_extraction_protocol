@@ -10,7 +10,7 @@
         Questions: ramiro.logares at gmail.com
         
 1. Download : miTAGs_extraction_protocol.zip :     wget https://github.com/ramalok/mitags_extraction_protocol/archive/master.zip
-2. Unzip: unzip master.zip
+2. unzip master.zip
 3. cd mitags_extraction_protocol-master
 4. unzip miTAGs_extraction_protocol.zip
 5. mv "miTAGs_extraction protocol" miTAGs_extraction_protocol
@@ -27,8 +27,8 @@
 13. make
 14. cd src/
 15. pwd
-    /YOUR/PATH/TO/mitags_extraction_protocol-master/miTAGs_extraction_protocol/hmmer-3.0rc2
-16. PATH=/YOUR/PATH/TO/mitags_extraction_protocol-master/miTAGs_extraction_protocol/hmmer-3.0rc2:$PATH  # We add hmmer3 to search path
+    /YOUR/PATH/TO/mitags_extraction_protocol-master/miTAGs_extraction_protocol/hmmer-3.0rc2/src
+16. PATH=/YOUR/PATH/TO/mitags_extraction_protocol-master/miTAGs_extraction_protocol/hmmer-3.0rc2/src:$PATH  # We add hmmer3 to search path
 17. cd ../../
 18. zcat test.MERGEDPAIRS.fastq.gz | ./fq_all2std.pl fq2fa > test.merged.fna
 19. ./cdbfasta/cdbfasta test.merged.fna
