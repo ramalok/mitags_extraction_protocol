@@ -4,7 +4,7 @@
 # Install and check :
 
 ###    you need to have 1. perl, 2. python and 3. hmmer3 executable
-1. Download : miTAGs_extraction_protocol.zip
+1. Download : miTAGs_extraction_protocol.zip : https://github.com/ramalok/mitags_extraction_protocol/blob/master/miTAGs_extraction_protocol.zip
 2. Unzip all
 3. cd to folder containing files
 4.  wget http://downloads.sourceforge.net/project/cdbfasta/cdbfasta.tar.gz?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fcdbfasta%2Ffiles%2F%3Fsource%3Dnavbar
