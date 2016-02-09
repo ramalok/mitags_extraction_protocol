@@ -36,6 +36,6 @@
 21. ./parse_rna_hmm3_output.pl test.merged.rRNA
 22. ./extract_rrna_seqs.pl test.merged.rRNA.parsed 1 100
 
-# NB: When you want to run this as part of the Uparse pipeline (https://github.com/ramalok/amplicon_processing), you will need to change the perl script " extract_rrna_seqs.pl " in lines 44 & 46 , addind /my/full/path/to/cdbfasta/cdbyank (instead of ./cdbfasta/cdbyank)
+## NB: When you want to run this as part of the Uparse pipeline (https://github.com/ramalok/amplicon_processing), you will need to change the perl script " extract_rrna_seqs.pl " in lines 44 & 46 , addind /my/full/path/to/cdbfasta/cdbyank (instead of ./cdbfasta/cdbyank)
 
 
