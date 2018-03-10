@@ -46,4 +46,6 @@ Logares, R., Sunagawa, S., Salazar, G., Cornejo-Castillo, F.M., Ferrera, I., Sar
 
 #### Code
 
+Logares, R., S. Sunagawa, G. Salazar, F. M. Cornejo-Castillo, I. Ferrera, H. Sarmento, P. Hingamp, H. Ogata, C. de Vargas, G. Lima-Mendez, J. Raes, J. Poulain, O. Jaillon, P. Wincker, S. Kandels-Lewis, E. Karsenti, P. Bork and S. G. Acinas (2014). MiTags extraction protocol. https://doi.org/10.5281/zenodo.1195523
+
 [![DOI](https://zenodo.org/badge/45834939.svg)](https://zenodo.org/badge/latestdoi/45834939)
