@@ -39,3 +39,10 @@
 ### NB: When you want to run this as part of the Uparse pipeline (https://github.com/ramalok/amplicon_processing), you will need to change the perl script " extract_rrna_seqs.pl " in lines 44 & 46 , adding /my/full/path/to/cdbfasta/cdbyank (instead of ./cdbfasta/cdbyank)
 
 
+## Citing
+
+#### Publication
+Logares, R., Sunagawa, S., Salazar, G., Cornejo-Castillo, F.M., Ferrera, I., Sarmento, H., Hingamp, P., Ogata, H., de Vargas, C., Lima-Mendez, G., Raes, J., Poulain, J., Jaillon, J., Wincker, P., Kandels-Lewis, S., Karsenti, E., Bork, P., Acinas, S.G. 2013. Metagenomic 16S rDNA Illumina Tags are a powerful alternative to amplicon sequencing to explore diversity and structure of microbial communities. Environmental Microbiology. 16(9): 2659-2671.
+
+#### Code
+[![DOI](https://zenodo.org/badge/45834939.svg)](https://zenodo.org/badge/latestdoi/45834939)
